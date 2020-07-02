@@ -1,0 +1,17 @@
+.Nav {
+  background-color: rgb(109, 37, 37);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-links {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  padding: 8px;
+}
