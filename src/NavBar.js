@@ -1,11 +1,11 @@
 import React from 'react';
 import './NavBar.css';
 
-function App() {
+function NavBar() {
   return (
-    <div>
-      <div>
-      
+    <div className='navCon'>
+      <div className='Header'>
+        <p>Love Plants</p>
       </div>
 
       <div className='Nav'>
@@ -28,4 +28,4 @@ function App() {
   );
 }
 
-export default App;
+export default NavBar;
