@@ -2,11 +2,20 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './NavBar';
+import PlantGrid from './PlantGrid';
 
 function App() {
   return (
     <div className='App'>
       <NavBar />
+      <PlantGrid />
+    </div>
+  );
+}
+
+export default App;
+
+/*
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
         <p>
@@ -20,8 +29,4 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
-  );
-}
-
-export default App;
+*/

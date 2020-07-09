@@ -1,0 +1,14 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 5%;
+}
+
+.plantItem {
+  padding: 30%;
+  border: 1px solid #888888;
+  box-shadow: 1.5px 1.5px #888888;
+  margin: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
